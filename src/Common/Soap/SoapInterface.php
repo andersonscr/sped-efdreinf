@@ -46,7 +46,7 @@ interface SoapInterface
      * @param string $password
      * @return void
      */
-    public function proxy(string $ip, int $port, string $user, string $password);
+    public function proxy($ip, $port, $user, $password);
 
     /**
      * Send soap message
